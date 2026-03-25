@@ -1,0 +1,99 @@
+ * {
+                margin: 0;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            header {
+                margin-top: -20px;
+            }
+
+            body {
+                max-width: 1000px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #ffffff;
+                color: #f77f00;
+                text-align: left;
+            }
+
+            nav {
+                color:black;
+                background-color: darkblue;
+                padding: 14px 0;
+                position: sticky;
+                top: 0;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                text-align: center;
+            }
+
+            nav a {
+                color: #e0e0e0;
+                text-decoration: none;
+                margin: 0 20px;
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                transition: color 0.2s;
+            }
+
+            nav a:hover {
+                color: #f77f00;
+            }
+
+            .container {
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 40px 24px;
+            }
+
+            h1 {
+                font-size: 50px;
+                font-weight: 700;
+                color: #1a1a2e;
+                margin-bottom: 12px;
+                margin-left: 20px;
+            }
+
+            h2 {
+                font-size: 24px;
+                font-weight: 400;
+                color: darkblue;
+                margin-bottom: 12px;
+                margin-left: 20px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 1.7;
+                color: black;
+                margin-bottom: 12px;
+                margin-left: 20px;
+            }
+
+            img {
+                float: right;
+                width: 100%;
+                max-width: 500px;
+                border-radius: 12px;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+                margin-left: 20px;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+
+            blockquote {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 26px;
+                color: black;
+                margin-bottom: 12px;
+                margin-left: 20px;
+            }
+
+            
+            .merriweather-font {
+            font-family: "Merriweather", serif;
+            font-optical-sizing: auto;
+            font-weight: 20;
+            font-style: normal;
+            font-variation-settings: "width" 100;
+            }
