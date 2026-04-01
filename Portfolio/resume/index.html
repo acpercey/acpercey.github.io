@@ -1,6 +1,5 @@
 <html>
     <head>
-
         <title>
             Alex Percey's Resume
         </title>
@@ -8,25 +7,176 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <style>
+            .resume-header {
+                text-align: center;
+                margin-bottom: 5px;
+            }
+            .resume-header p {
+                margin: 2px 0;
+                font-size: 0.95em;
+            }
+            .resume-header a {
+                color: inherit;
+            }
+            h2 {
+                border-bottom: 2px solid #333;
+                padding-bottom: 4px;
+                margin-top: 25px;
+                margin-bottom: 10px;
+                font-size: 1.2em;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            h3 {
+                margin-bottom: 2px;
+                margin-top: 15px;
+                font-size: 1em;
+            }
+            .role-line {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-bottom: 2px;
+            }
+            .role-title {
+                font-weight: bold;
+            }
+            .role-date {
+                font-style: italic;
+                color: #555;
+            }
+            .org-line {
+                font-style: italic;
+                margin-bottom: 5px;
+            }
+            ul {
+                margin-top: 4px;
+                margin-bottom: 8px;
+                padding-left: 20px;
+            }
+            li {
+                margin-bottom: 4px;
+                font-size: 0.95em;
+            }
+        </style>
     </head>
-
     <body>
         <header>
         <nav>
-            <a href = "../index.html">Home</a> | 
-            <a href = "../about/index.html">About Me</a> | 
-            <a href = "../work/index.html">My Work</a> | 
-            <a href = "index.html">Resume</a>
+            <a href="../index.html">Home</a> | 
+            <a href="../about/index.html">About Me</a> | 
+            <a href="../work/index.html">My Work</a> | 
+            <a href="index.html">Resume</a>
         </nav>
         </header>
-        <h1 class = "merriweather-font">
-            Resume
-        </h1>
-        <h2>
-            Education
-        </h2>
-        <p>
-            Syracuse University - BA in Sport Analytics
-        </p>
+
+        <div class="resume-header">
+            <h1 class="merriweather-font">Alex Croix Percey</h1>
+            <p>Glen Allen, VA | (804) 525-8394 | alex23percey@gmail.com | <a href="https://linkedin.com/in/alex-percey/">linkedin.com/in/alex-percey/</a></p>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <h2>Experience</h2>
+
+        <div class="role-line">
+            <span class="role-title">Performance Analytics Intern | Syracuse Football</span>
+            <span class="role-date">April 2025 – January 2026</span>
+        </div>
+        <ul>
+            <li>Collect and work with player tracking data to analyze player performance in-game and during practice</li>
+            <li>Present insights on training optimization and injury prevention to coaching and player development staff</li>
+        </ul>
+
+        <div class="role-line">
+            <span class="role-title">Data Analytics Intern | United Football League</span>
+            <span class="role-date">February 2026 – Present</span>
+        </div>
+        <ul>
+            <li>Complete various analytics projects on player groups and the impact of new/potential rule changes</li>
+            <li>Create Shiny apps and presentations to communicate findings to league personnel in bi-weekly meetings</li>
+        </ul>
+
+        <div class="role-line">
+            <span class="role-title">Basketball/Baseball Data Contractor | Information Logistics Inc.</span>
+            <span class="role-date">March 2025 – Present</span>
+        </div>
+        <ul>
+            <li>Develop extensive knowledge of advanced basketball and baseball statistics and analytics to clearly explain metrics</li>
+            <li>Demonstrate Synergy Sports basketball and baseball databases to potential clients then assist them in site usage</li>
+        </ul>
+
+        <div class="role-line">
+            <span class="role-title">Brand Ambassador | American Eagle | Short Pump, VA</span>
+            <span class="role-date">July 2024 – March 2026</span>
+        </div>
+        <ul>
+            <li>Addressed customer concerns over store navigation, expedite 30+ customer experiences per hour by assisting with item selection and style choices</li>
+            <li>Directly assisted the corporate project manager with move-in process from a temporary to a permanent store location</li>
+        </ul>
+
+        <div class="role-line">
+            <span class="role-title">Head Coach | i9 Sports Flag Football | Henrico, VA</span>
+            <span class="role-date">August 2022 – November 2023</span>
+        </div>
+        <ul>
+            <li>Served as a volunteer coach, developed practice regimens, drew up and executed own playbook</li>
+        </ul>
+
+        <!-- EDUCATION -->
+        <h2>Education</h2>
+
+        <div class="role-line">
+            <span class="role-title">Syracuse University | David B. Falk College of Sport and Human Dynamics</span>
+            <span class="role-date">August 2024 – May 2027</span>
+        </div>
+        <p class="org-line">Bachelor of Science | Sport Analytics</p>
+        <ul>
+            <li>3.93 GPA. Invest in Success Scholarship recipient, member of Dean's List all semesters, Leadership Scholar</li>
+            <li>Director of Outreach, Football Analytics Club, Vice President of Tennis Analytics Club</li>
+            <li>Member of SABR and Sportsbook analytics clubs, social media creator for ACCN</li>
+            <li>Completed courses focusing on database management, sport economics, data modeling, and coding in R + Python</li>
+        </ul>
+
+        <!-- AWARDS/HONORS -->
+        <h2>Awards / Honors</h2>
+
+        <div class="role-line">
+            <span class="role-title">Room winner at 2025 Football Analytics Blitz, room runner-up at 2026 competition</span>
+        </div>
+        <ul>
+            <li>Utilized nflfastR to examine the Dynamic Kickoffs effects on injuries and return rates and created a Shiny app</li>
+            <li>In this year's competition, used logistic regression and segmented data visualization to attack the 2-high coverage</li>
+            <li>Led a group of freshmen to beat analytics teams from Villanova, Auburn, and Rice</li>
+        </ul>
+
+        <div class="role-line">
+            <span class="role-title">Recognized as a Presidential Scholar, AP Scholar with Distinction, National Merit Scholar Semifinalist</span>
+        </div>
+        <ul>
+            <li>Scored a 1590 on SAT, 5 or 4 on all 12 AP Exams taken, 200 community service hours</li>
+        </ul>
+
+        <div class="role-line">
+            <span class="role-title">Other Achievements</span>
+        </div>
+        <ul>
+            <li>Richmond Sports Backers ALL-Star Student Athlete. Received Outstanding Athletic Achievement honor</li>
+            <li>Competed in the 2025 Big Data Bowl, SABR Diamond Dollars (2x), SMT Data Challenge, MTFC, HIMCM</li>
+        </ul>
+
+        <!-- SKILLS -->
+        <h2>Skills</h2>
+
+        <div class="role-line">
+            <span class="role-title">Coding, Visualizations, and Database Management</span>
+        </div>
+        <ul>
+            <li>Fluent in ggplot, tidyverse, shiny, dplyr, and web scraping in R</li>
+            <li>Experience with database creation, querying and migration in SQL, pandas and helium in Python</li>
+            <li>Simulation, XGboost, linear + logistic modeling, clustering, and statistical inference</li>
+            <li>Data visualization in Tableau and Datawrapper + simulation, accounting, and modeling in Excel</li>
+        </ul>
+
     </body>
 </html>
