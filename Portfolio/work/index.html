@@ -8,19 +8,30 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
 
     <body>
         <header>
-        <nav>
-            <a href = "../index.html">Home</a> | 
-            <a href = "../about/index.html">About Me</a> | 
-            <a href = "index.html">My Work</a> | 
-            <a href = "../resume/index.html">Resume</a> |
-            <a href = "../assignments/index.html">Assignments</a> |
-            <a href = "../final/index.html">Final</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../about/index.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="index.html">My Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../resume/index.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../assignments/index.html">Assignments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../final/index.html">Final</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        </header>
+    </header>
+
         <h1 class = "merriweather-font">
             My Work
         </h1>
@@ -38,5 +49,8 @@
             Recently, I started a new role with the United Football league as a Data Analytics intern. Our first project was to put together an advanced metric selectable scouting report. Here's what the other interns and I put together:
             <a href="https://austinambler.shinyapps.io/UFLScoutingReports/" target="_blank">View the Shiny app</a>
         </p>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
     </body>
 </html>
