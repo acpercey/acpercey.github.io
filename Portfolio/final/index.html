@@ -1,6 +1,5 @@
 <html>
     <head>
-
         <title>
             Assignments
         </title>
@@ -9,8 +8,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <style>
+            p {
+                font-family: Georgia, serif;
+            }
+        </style>
     </head>
-
     <body>
         <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,13 +33,46 @@
                 </div>
             </div>
         </nav>
-    </header>
+        </header>
 
-        <h1 class = "merriweather-font">
-            Final coming soon...
+        <h1 class="merriweather-font">
+            Final project paper coming soon...
         </h1>
-    </body>
+        <p>
+            This is where the body paragraphs of my final project paper will go!
+             This is where the body paragraphs of my final project paper will go!
+             This is where the body paragraphs of my final project paper will go!
+             This is where the body paragraphs of my final project paper will go!
+             This is where the body paragraphs of my final project paper will go!
+             This is where the body paragraphs of my final project paper will go!
+        </p>
 
+        <!-- Bootstrap Carousel -->
+        <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="playerone.jpg" class="d-block w-100" alt="Player One">
+                </div>
+                <div class="carousel-item">
+                    <img src="playertwo.jpg" class="d-block w-100" alt="Player Two">
+                </div>
+                <div class="carousel-item">
+                    <img src="playerthree.jpg" class="d-block w-100" alt="Player Three">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+    </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    
 </html>
