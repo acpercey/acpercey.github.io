@@ -8,6 +8,10 @@
                 margin-top: -20px;
             }
 
+            html {
+    overflow-y: scroll;
+}
+
             body {
     max-width: 1000px;
     margin: 0 auto;
