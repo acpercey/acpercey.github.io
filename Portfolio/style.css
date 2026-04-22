@@ -9,12 +9,13 @@
             }
 
             body {
-                max-width: 1000px;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background-color: #ffffff;
-                color: black;
-                text-align: left;
-            }
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
+}
 
             nav {
                 color:black;
